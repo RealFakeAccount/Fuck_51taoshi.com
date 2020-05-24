@@ -11,7 +11,9 @@ you can install requirement by typing `pip install selenium` in your command lin
 
 ## usage
 fill in your username and password in cnm51taoshi.py (line 10-11).
-put python file and the answer in the same folder
+
+put python file and the answer in the same folder.
+
 run this code.
 
 Some bugs may occur. Feel free to contribute.
