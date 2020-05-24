@@ -2,7 +2,7 @@
 A script to automatically finish homework in 51taoshi.com
 ![image](https://github.com/RealFakeAccount/Fuck_51taoshi.com/blob/master/sample.png)
 
-# This code *DO NOT* guarantee a FULL SCORE. If this score matter to you, DO NOT use it. 
+# This code *DO NOT* guarantee a FULL SCORE. If this score matters to you, DO NOT use it. 
 
 ## requirement
 selenium
