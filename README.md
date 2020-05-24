@@ -8,4 +8,8 @@ selenium
 
 you can install requirement by typing `pip install selenium` in your command line
 
+## usaage
+fill in your username and password in cnm51taoshi.py (line 10-11)
+then run this code
+
 Some bugs may occur. Feel free to contribute.
