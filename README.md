@@ -1,5 +1,8 @@
 # Fuck_51taoshi.com
 A script to automatically finish homework in 51taoshi.com
+
+淘师湾自动脚本
+
 ![image](https://github.com/RealFakeAccount/Fuck_51taoshi.com/blob/master/sample.png)
 
 # This code *DO NOT* guarantee a FULL SCORE. If this score matters to you, DO NOT use it. 
