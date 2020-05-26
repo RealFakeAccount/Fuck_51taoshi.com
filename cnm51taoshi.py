@@ -7,8 +7,8 @@ def human_handle(info):
     input("Press Enter to continue...")
 
 
-username = ""
-passwd = ""
+username = "594497360"
+passwd = "123456"
 
 driver = webdriver.Firefox()
 driver.get("http://infotech.51taoshi.com")
@@ -72,12 +72,13 @@ while True:
                     question = question.splitlines()[0]
                 
                 #find answer
+                flag = False
                 pos = answertxt.find(question)
                 if pos != -1:
                     answer = answertxt[answertxt.find("[answer:]", pos) + 9]
                     print(answer)
                 else:
-                    pos = answertxt.find(question[0:6])
+                    pos = answertxt.find(question[0:5])
                     
                     if pos == -1:
                         human_handle("answer not found.  Please choose answer in the browser manually.")
@@ -86,6 +87,7 @@ while True:
                         human_handle("this is likely the question. But Im not sure. Please press enter if it IS the question\n" + 
                         answertxt[pos:pos + 50] + "\nthis is likely the question. But Im not sure. Please press enter if it IS the question")
                         answer = answertxt[answertxt.find("[answer:]", pos) + 9]
+                        flag = True
                         print(answer)
 
                 
@@ -94,7 +96,7 @@ while True:
                 if choicedic.get(answer) != None: #choice
                     ptr = "//ul[@class='test-list']/ul[{}]/li/div/div[2]/ul/li[{}]/label/input".format(i, choicedic[answer])
                     driver.find_element_by_xpath(ptr).click()
-                else :#free response
+                elif not flag:#free response
                     ptr = "//ul[@class='test-list']/ul[{}]/li/div/div[2]/textarea".format(i)
                     #driver.find_element_by_xpath(ptr).send_keys(' ')
                     input("这网站只能输入汉字.所以这里没办法自动化.请手动粘贴一些中文内容然后按回车继续")
