@@ -21,12 +21,14 @@ you can install requirement by typing `pip install selenium` in your command lin
 
 4. OR you are using chrome, please install Chrome Driver <https://sites.google.com/a/chromium.org/chromedriver/downloads>
 
-5. If you are using Firefox, please use cnm51taoshi_firefox.py. Otherwise, use cnm51taoshi_chrome.py
+5. Add the Firefox Driver or Chrome Driver to your PATH. Help in [English](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/)|[中文](https://jingyan.baidu.com/article/47a29f24610740c0142399ea.html)
 
-6. Open cnm51taoshi_*your browser*.py in notepad. Fill in your username and password in cnm51taoshi_*your browser*.py (line 10-11).
+6. If you are using Firefox, please use cnm51taoshi_firefox.py. If you are using Chrome, use cnm51taoshi_chrome.py
 
-7. put python file and the answer in the same folder.
+7. Open cnm51taoshi_*your browser*.py in notepad. Fill in your username and password in cnm51taoshi_*your browser*.py (line 10-11).
 
-8. run this code.
+8. put python file and the answer in the same folder.
+
+9. run this code.
 
 Some bugs may occur. Feel free to contribute.
