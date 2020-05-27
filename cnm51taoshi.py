@@ -7,8 +7,8 @@ def human_handle(info):
     input("Press Enter to continue...")
 
 
-username = "594497360"
-passwd = "123456"
+username = ""
+passwd = ""
 
 driver = webdriver.Firefox()
 driver.get("http://infotech.51taoshi.com")
